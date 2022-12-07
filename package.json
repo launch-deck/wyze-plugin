@@ -1,7 +1,7 @@
 {
     "name": "@launch-deck/wyze-plugin",
     "description": "LaunchDeck plugin for Wyze devices",
-    "version": "1.0.1-snapshot.0",
+    "version": "1.0.1-snapshot.1",
     "main": "./dist/main.js",
     "scripts": {
         "build": "webpack --mode=production --node-env=production"
