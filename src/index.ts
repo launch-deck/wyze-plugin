@@ -15,7 +15,7 @@ const WYZE_PROPERTIES = {
 
 let wyze: Wyze | undefined;
 
-const WyzePlugin: Plugin = {
+module.exports = {
 
     async handleCommand(command: Command): Promise<void> {
 
@@ -124,7 +124,7 @@ const WyzePlugin: Plugin = {
             "password"
         ];
     }
-}
+} as Plugin;
 
 function getPowerAction(device: any, powerOn: boolean): any {
     return {
@@ -209,5 +209,3 @@ async function runActionList(actions: any[]): Promise<any> {
     }
     return result?.data
 }
-
-export default WyzePlugin;

@@ -4,8 +4,6 @@
         "module": "commonJS",
         "sourceMap": true,
         "outDir": "./dist",
-        "esModuleInterop": true,
-        "strict": true,
-        "skipLibCheck": true
+        "esModuleInterop": true
     }
 }
